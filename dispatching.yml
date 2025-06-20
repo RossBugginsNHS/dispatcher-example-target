@@ -1,6 +1,6 @@
 inbound:
   - source:
       repository: dispatcher-example-source
-      workflow: ci11111111.yml
+      workflow: ci.yml
     targets:
       - workflow: cd.yml
